@@ -57,7 +57,14 @@ function blob_fixup() {
     case "${1}" in
         system/vendor/lib/hw/camera.smdk4x12.so)
             "${PATCHELF}" --add-needed libshim_camera.so "${2}"
+	    "${PATCHELF}" --add-needed libshim_utils.so "${2}"
             ;;
+	system/vendor/lib/hw/audio.primary.smdk4x12.so)
+	    "${PATCHELF}" --add-needed libshim_utils.so "${2}"
+	    ;;
+	system/vendor/lib/egl/libGLES_android.so)
+	    "${PATCHELF}" --add-needed libshim_utils.so "${2}"
+	    ;;
     esac
 }
 

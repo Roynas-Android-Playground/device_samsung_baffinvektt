@@ -52,7 +52,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.5-service
+    android.hardware.camera.provider@2.5-service \
+    libshim_camera
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -163,6 +164,10 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl.samsung \
     android.hardware.sensors@1.0-service
+
+# Shim
+PRODUCT_PACKAGES += \
+    libshim_utils
 
 # Vibrator
 PRODUCT_PACKAGES += \
