@@ -55,8 +55,8 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/libsample7.so)
-            "${PATCHELF}" --set-soname "libsample7.so" "${2}"
+        system/vendor/lib/hw/camera.smdk4x12.so)
+            "${PATCHELF}" --add-needed libshim_camera.so "${2}"
             ;;
     esac
 }
