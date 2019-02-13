@@ -16,3 +16,10 @@ cc_library_shared {
    shared_libs: ["libmedia_helper"],
    vendor: true,
 }
+
+cc_library_shared {
+   name: "libshim_pthread_join",
+   srcs: ["libpthread_join/libpthread_shim.cpp"],
+   stem: "libC",
+   vendor: true,
+}

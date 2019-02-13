@@ -72,7 +72,8 @@ PRODUCT_PACKAGES += \
     libsecion \
     libhwjpeg \
     libfimc \
-    libUMP
+    libUMP \
+    libshim_pthread_join
 
 # Graphics HIDL
 PRODUCT_PACKAGES += \
