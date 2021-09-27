@@ -76,6 +76,9 @@ Only the three quirks included above are recognized at this point:
 -->
 
 <MediaCodecs>
+    <Settings>
+        <Variant name="slow-cpu" enabled="true" />
+    </Settings>
     <Decoders>
         <MediaCodec name="OMX.SEC.avc.dec" type="video/avc" >
             <Quirk name="decoder-ignores-streamcorrupt-error" />
