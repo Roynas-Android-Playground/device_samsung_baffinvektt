@@ -88,12 +88,12 @@
 
 /dev/ttySAC*	          0660	 root	 system
 
-# sensor sysfs properties
-/sys/devices/virtual/input/input*   acc_poll_delay  0660  system   radio
-/sys/devices/virtual/input/input*   gyro_poll_delay  0660  system   radio
-/sys/devices/virtual/input/input*   pressure_poll_delay  0660  system   radio
-/sys/devices/virtual/input/input*   light_poll_delay  0660  system   radio
-/sys/devices/virtual/input/input*   prox_poll_delay  0660  system   radio
+#Mobicore
+/dev/mobicore             0700   system     system
+/dev/mobicore-user        0666   radio      system
 
-# sensorhub
-#/dev/ssp_sensorhub        0660   system     system
+# Sensor
+/dev/input/event* 0660 system input
+/sys/devices/virtual/input/input*   enable      0660  system   input
+/sys/devices/virtual/input/input*   poll_delay  0660  system   input
+
