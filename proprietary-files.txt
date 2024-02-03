@@ -1,0 +1,69 @@
+# Audio
+system/lib/hw/audio.primary.smdk4x12.so:vendor/lib/hw/audio.primary.smdk4x12.so
+system/lib/libsamsungDiamondVoice.so:vendor/lib/libsamsungDiamondVoice.so
+system/lib/lib_Samsung_Resampler.so:vendor/lib/lib_Samsung_Resampler.so
+system/lib/libsamsungSoundbooster.so:vendor/lib/libsamsungSoundbooster.so
+system/lib/libaudio-ril.so:vendor/lib/libaudio-ril.so
+system/lib/libsamsungRecord.so:vendor/lib/libsamsungRecord.so
+system/lib/lib_SamsungRec_V02002.so:vendor/lib/lib_SamsungRec_V02002.so
+system/lib/lib_Samsung_SB_AM_for_ICS_v03007.so:vendor/lib/lib_Samsung_SB_AM_for_ICS_v03007.so
+
+# Camera
+system/lib/hw/camera.smdk4x12.so:vendor/lib/hw/camera.smdk4x12.so
+
+# EGL
+system/lib/egl/egl.cfg:vendor/lib/egl/egl.cfg
+system/lib/egl/libEGL_mali.so:vendor/lib/egl/libEGL_mali.so
+system/lib/egl/libGLESv1_CM_mali.so:vendor/lib/egl/libGLESv1_CM_mali.so
+system/lib/egl/libGLESv2_mali.so:vendor/lib/egl/libGLESv2_mali.so
+system/lib/egl/libGLES_android.so:vendor/lib/egl/libGLES_android.so
+system/lib/libMali.so:vendor/lib/libMali.so
+system/lib/libETC1.so:vendor/lib/libETC1.so
+system/lib/libUMP.so:vendor/lib/libUMP.so
+
+# GPS
+system/bin/gpsd:vendor/bin/gpsd
+system/etc/gps.xml:vendor/etc/gps.xml
+system/lib/hw/gps.exynos4.so:vendor/lib/hw/gps.exynos4.so
+
+# RIL
+sbin/cbd:vendor/bin/cbd
+system/lib/libsec-ril.so:vendor/lib/libsec-ril.so
+system/lib/libsecril-client.so:vendor/lib/libsecril-client.so
+system/lib/libomission_avoidance.so:vendor/lib/libomission_avoidance.so
+system/lib/libvdis.so:vendor/lib/libvdis.so
+system/lib/libfactoryutil.so:vendor/lib/libfactoryutil.so
+
+# Wifi
+system/bin/bcm4334.hcd:vendor/firmware/bcm4334.hcd
+system/bin/bcm4334_murata.hcd:vendor/firmware/bcm4334_murata.hcd
+system/bin/bcm4334_semco.hcd:vendor/firmware/bcm4334_semco.hcd
+system/etc/wifi/bcmdhd_apsta.bin_b2:vendor/etc/wifi/bcmdhd_apsta.bin_b2
+system/etc/wifi/bcmdhd_mfg.bin_b2:vendor/etc/wifi/bcmdhd_mfg.bin_b2
+system/etc/wifi/bcmdhd_p2p.bin_b2:vendor/etc/wifi/bcmdhd_p2p.bin_b2
+system/etc/wifi/bcmdhd_sta.bin_b2:vendor/etc/wifi/bcmdhd_sta.bin_b2
+system/etc/wifi/default_ap.conf:vendor/etc/wifi/default_ap.conf
+system/etc/wifi/nvram_mfg.txt:vendor/etc/wifi/nvram_mfg.txt
+system/etc/wifi/nvram_mfg.txt_murata:vendor/etc/wifi/nvram_mfg.txt_murata
+system/etc/wifi/nvram_mfg.txt_murata_b2:vendor/etc/wifi/nvram_mfg.txt_murata_b2
+system/etc/wifi/nvram_mfg.txt_semcosh:vendor/etc/wifi/nvram_mfg.txt_semcosh
+system/etc/wifi/nvram_net.txt:vendor/etc/wifi/nvram_net.txt
+system/etc/wifi/nvram_net.txt_murata:vendor/etc/wifi/nvram_net.txt_murata
+system/etc/wifi/nvram_net.txt_murata_b2:vendor/etc/wifi/nvram_net.txt_murata_b2
+system/etc/wifi/nvram_net.txt_semcosh:vendor/etc/wifi/nvram_net.txt_semcosh
+
+# Sensors
+system/lib/hw/sensors.smdk4x12.so:vendor/lib/hw/sensors.smdk4x12.so
+system/lib/libakm.so:vendor/lib/libakm.so
+
+# STLPort
+system/lib/libstlport.so:vendor/lib/libstlport.so
+
+# SEC
+system/lib/libsecnativefeature.so:vendor/lib/libsecnativefeature.so
+
+# Firmware
+system/vendor/firmware/fimc_is_fw.bin:vendor/firmware/fimc_is_fw.bin
+system/vendor/firmware/libpn544_fw.so:vendor/firmware/libpn544_fw.so
+system/vendor/firmware/mfc_fw.bin:vendor/firmware/mfc_fw.bin
+system/vendor/firmware/setfile.bin:vendor/firmware/setfile.bin
