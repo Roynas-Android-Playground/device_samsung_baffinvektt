@@ -76,6 +76,9 @@ BOARD_SEPOLICY_TEE_FLAVOR := mobicore
 include device/samsung_slsi/sepolicy/sepolicy.mk
 include hardware/samsung-ext/interfaces/sepolicy/SEPolicy.mk
 
+# Treble
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+
 # WiFi
 BOARD_HAVE_SAMSUNG_WIFI := true
 BOARD_WLAN_DEVICE := bcmdhd

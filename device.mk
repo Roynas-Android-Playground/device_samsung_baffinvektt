@@ -20,6 +20,9 @@ TARGET_HAL_PATH := hardware/samsung/exynos4/hal
 TARGET_OMX_PATH := hardware/samsung/exynos/multimedia/openmax
 $(call inherit-product, hardware/samsung/exynos4210.mk)
 
+# Treble
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
+
 # Audio
 PRODUCT_PACKAGES += \
    android.hardware.audio.service \
