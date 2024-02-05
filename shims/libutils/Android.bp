@@ -1,4 +1,0 @@
-cc_library_shared {
-   name: "libshim_utils",
-   srcs: ["VectorImpl.c"],
-}

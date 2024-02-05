@@ -1,0 +1,11 @@
+cc_library_shared {
+   name: "libshim_camera",
+   srcs: ["camera_hw/camera_shim.c"],
+   vendor: true,
+}
+
+cc_library_shared {
+   name: "libshim_utils",
+   srcs: ["libutils/VectorImpl.c"],
+   vendor: true,
+}
