@@ -166,6 +166,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     sensors.exynos4
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Shim
 PRODUCT_PACKAGES += \
     libshim_utils
