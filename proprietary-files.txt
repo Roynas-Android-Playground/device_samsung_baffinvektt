@@ -53,7 +53,6 @@ system/etc/wifi/nvram_net.txt_murata_b2:vendor/etc/wifi/nvram_net.txt_murata_b2
 system/etc/wifi/nvram_net.txt_semcosh:vendor/etc/wifi/nvram_net.txt_semcosh
 
 # Sensors
-system/lib/hw/sensors.smdk4x12.so:vendor/lib/hw/sensors.smdk4x12.so
 system/lib/libakm.so:vendor/lib/libakm.so
 
 # STLPort

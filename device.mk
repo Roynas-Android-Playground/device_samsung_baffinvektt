@@ -163,7 +163,8 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl.samsung \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-service \
+    sensors.exynos4
 
 # Shim
 PRODUCT_PACKAGES += \
