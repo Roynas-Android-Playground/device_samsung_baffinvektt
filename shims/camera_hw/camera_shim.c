@@ -33,6 +33,7 @@ const char _ZN7android16CameraParameters26PIXEL_FORMAT_YUV420SP_NV21E[] = "nv21"
 
 //This doesn't exist in the android Camera Parameters object any longer
 int _ZNK7android16CameraParameters8getInt64EPKc(const char *key) {
+    (void)key;
     return -1;
 }
 
