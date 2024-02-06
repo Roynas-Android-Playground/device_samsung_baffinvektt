@@ -9,3 +9,10 @@ cc_library_shared {
    srcs: ["libutils/VectorImpl.c"],
    vendor: true,
 }
+
+cc_library_shared {
+   name: "libshim_audio",
+   srcs: ["audio_hw/audio_shim.cpp"],
+   shared_libs: ["libmedia_helper"],
+   vendor: true,
+}

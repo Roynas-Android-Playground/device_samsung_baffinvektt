@@ -61,6 +61,7 @@ function blob_fixup() {
             ;;
 	system/vendor/lib/hw/audio.primary.smdk4x12.so)
 	    "${PATCHELF}" --add-needed libshim_utils.so "${2}"
+	    "${PATCHELF}" --add-needed libshim_audio.so "${2}"
 	    ;;
     esac
 }

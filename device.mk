@@ -30,7 +30,8 @@ PRODUCT_PACKAGES += \
    android.hardware.audio.effect@2.0-impl:32 \
    audio.r_submix.default \
    audio.usb.default \
-   audio.a2dp.default
+   audio.a2dp.default \
+   libshim_audio
 
 # Audio Configs
 PRODUCT_COPY_FILES += \
