@@ -13,10 +13,9 @@ system/lib/hw/camera.smdk4x12.so:vendor/lib/hw/camera.smdk4x12.so
 
 # EGL
 system/lib/egl/egl.cfg:vendor/lib/egl/egl.cfg
-system/lib/egl/libEGL_mali.so:vendor/lib/egl/libEGL_mali.so
-system/lib/egl/libGLESv1_CM_mali.so:vendor/lib/egl/libGLESv1_CM_mali.so
-system/lib/egl/libGLESv2_mali.so:vendor/lib/egl/libGLESv2_mali.so
-system/lib/egl/libGLES_android.so:vendor/lib/egl/libGLES_android.so
+vendor/lib/egl/libEGL_mali.so|2fe2ca22ef89cd2929778c13c42089f9e8f8c65e
+vendor/lib/egl/libGLESv1_CM_mali.so|1c7566eb43819fd526d8807a4a2d660638d03573
+vendor/lib/egl/libGLESv2_mali.so|68ad003db7278eceb7499c0a7a2a1fb68d93e769
 system/lib/libMali.so:vendor/lib/libMali.so
 system/lib/libETC1.so:vendor/lib/libETC1.so
 system/lib/libUMP.so:vendor/lib/libUMP.so
