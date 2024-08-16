@@ -71,7 +71,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.exynos4 \
     libsecion \
     libhwjpeg \
-    libfimc
+    libfimc \
+    libUMP
 
 # Graphics HIDL
 PRODUCT_PACKAGES += \

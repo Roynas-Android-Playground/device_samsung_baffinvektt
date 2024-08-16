@@ -18,7 +18,6 @@ vendor/lib/egl/libGLESv1_CM_mali.so|1c7566eb43819fd526d8807a4a2d660638d03573
 vendor/lib/egl/libGLESv2_mali.so|68ad003db7278eceb7499c0a7a2a1fb68d93e769
 system/lib/libMali.so:vendor/lib/libMali.so
 system/lib/libETC1.so:vendor/lib/libETC1.so
-system/lib/libUMP.so:vendor/lib/libUMP.so
 
 # GPS
 system/bin/gpsd:vendor/bin/gpsd
