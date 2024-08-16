@@ -1,2 +1,4 @@
 rild.libpath=/system/vendor/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
+
+ro.opengles.version=131072
